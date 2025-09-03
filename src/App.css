@@ -18,7 +18,7 @@
   width: 500px;
   height: 830px;
   object-fit: cover;
-  opacity: 14%;
+  opacity: 30%;
 }
 
 .img-hero-2{
@@ -28,7 +28,7 @@
   width: 500px;
   height: 830px;
   object-fit: cover;
-  opacity: 18%;
+  opacity: 25%;
 }
 
 .scrolling-container{
@@ -87,10 +87,11 @@
 }
 
 main{
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-color: #030303;
   width: 100%;
-  height: 1600px;
 }
 
 .forma-abstrata{
@@ -158,4 +159,500 @@ main{
 
 .p-1-ul img{
   padding-right: 10px;
+}
+
+.main-div1{
+  display: flex;
+  width: 100%;
+}
+
+.main-div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 300px;
+  margin-bottom: 250px;
+}
+
+.main-pt1{
+  width: 100%;
+}
+
+.main-pt2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo{
+  width: 603.412px;
+  height: 603.412px;
+  transform: rotate(4.676deg);
+  flex-shrink: 0;
+  border-radius: 603.412px;
+  background: url("./assets/img-main.png") lightgray 50% / cover no-repeat;
+  box-shadow: 0 2.912px 2.912px 0 rgba(0, 0, 0, 0.25), 0 0 109.182px 0 rgba(255, 0, 0, 0.50)
+}
+
+.quadrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 197.118px;
+  height: 197.118px;
+  flex-shrink: 0;
+  background: #1C1C1C;
+  border-top: 4px solid #ff0000;
+  border-bottom: 4px solid #ff0000;
+  box-shadow: 0 0 46.245px 0 rgba(255, 0, 0, 0.40);
+}
+
+.main-div2-div1{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 80%;
+  gap: 30px;
+}
+
+.main-div2-div2{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  gap: 142px;
+}
+
+.main-div2-div1 p{
+  color: #FFF;
+  font-family: "Bebas Neue";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.406px;
+}
+
+.main-div2-div2 p{
+  color: #FFF;
+  font-family: "Bebas Neue";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.406px;
+}
+
+.main-div2-div2 div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.quadrado img{
+  width: 107.566px;
+  height: 107.566px;
+  flex-shrink: 0;
+}
+
+aside{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+aside h1{
+  text-align: center;
+  color: #FFF;
+  font-family: "Bebas Neue";
+  font-size:  50.342px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.267px;
+}
+
+aside b{
+  color: #F00;
+  font-family: "Bebas Neue";
+  font-size: 50.342px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.267px;
+}
+
+.resultados{
+  display: flex;
+  overflow: hidden;
+}
+
+.resultado1{
+  width: 606px;
+  height: 487.695px;
+  flex-shrink: 0;
+  aspect-ratio: 210/169;
+}
+
+.resultado2{
+  width: 708px;
+  height: 487px;
+  flex-shrink: 0;
+  aspect-ratio: 173/119;
+}
+
+.resultado3{
+  width: 540px;
+  height: 487px;
+  object-fit: cover;
+}
+
+.aside-div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 200px;
+}
+
+.background-aside{
+  position: absolute;
+  background-image: url("./assets/asidebackground.png");
+  width: 100%;
+  height: 100%;
+  opacity: 20%;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.aside-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 60%;
+  color: #FFF;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  z-index: 1;
+  margin-bottom: 200px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #131313;
+  box-shadow: 0 0 100px 0 rgba(255, 0, 0, 0.50);
+  text-align: left;
+}
+
+.aside-card b{
+  margin-top: 50px;
+}
+
+.aside-card p{
+  margin: 100px;
+}
+
+.pacotes{
+  display: flex;
+  background: linear-gradient(#030303, #5e0000);
+}
+
+.pacote1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pacote-card1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 150px 0;
+  border-radius: 30px;
+  background-color: #0f0f0f;
+}
+
+.barra{
+  width: 80%;
+  height: 1px;
+  background: #FFF;
+}
+
+.pacote-card1 h1{
+  margin-top: 50px;
+  color: #828282;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+
+.pacote-card1 p{
+  width: 70%;
+  color: #FFF;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.logo-pacote{
+  width: 218px;
+  height: 218px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.pacote-card1 h4{
+  color: #828282;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+  text-decoration: line-through;
+}
+
+.pacote-card1 b{
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.pacote-card1 h3{
+  background: linear-gradient(180deg, #F00 0%, #FA4848 100%);
+  background-clip: text;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.pacote-card1 h3 b{
+  background: linear-gradient(180deg, #F00 0%, #FA4848 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Oswald;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.pacote-card1 button{
+  display: inline-flex;
+  padding: 15px 90px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #F00 0%, #FA4848 100%);
+  color: #FFF;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 66.667% */
+  border: none;
+  margin-bottom: 50px;
+}
+
+.pacote-card2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.checkred-pacote1{
+  position: absolute;
+  top: 323px;
+  left: 95px;
+  width: 23px;
+}
+
+.checkred-pacote2{
+  position: absolute;
+  top: 380px;
+  left: 95px;
+  width: 23px;
+}
+
+.checkred-pacote3{
+  position: absolute;
+  top: 438px;
+  left: 95px;
+  width: 23px;
+}
+
+.checkred-pacote4{
+  position: absolute;
+  top: 496px;
+  left: 95px;
+  width: 23px;
+}
+
+.checkred-pacote5{
+  position: absolute;
+  top: 583px;
+  left: 95px;
+  width: 23px;
+}
+
+
+
+.checkred-pacote1-2{
+  position: absolute;
+  top: 326px;
+  left: 65px;
+  width: 23px;
+}
+
+.checkred-pacote2-2{
+  position: absolute;
+  top: 323px;
+  left: 120px;
+  width: 23px;
+}
+
+.checkred-pacote3-2{
+  position: absolute;
+  top: 380px;
+  left: 132px;
+  width: 23px;
+}
+
+.checkred-pacote4-2{
+  position: absolute;
+  top: 439px;
+  left: 104px;
+  width: 23px;
+}
+
+.checkred-pacote5-2{
+  position: absolute;
+  top: 526px;
+  left: 115px;
+  width: 23px;
+}
+
+.checkred-card1{
+  position: absolute;
+  top: 348px;
+  left: 95px;
+}
+
+.checkred-card2{
+  position: absolute;
+  top: 447px;
+  left: 95px;
+}
+
+.checkred-card3{
+  position: absolute;
+  top: 546px;
+  left: 95px;
+}
+
+.checkred-card4{
+  position: absolute;
+  top: 643px;
+  left: 95px;
+}
+
+.checkred-card5{
+  position: absolute;
+  top: 742px;
+  left: 95px;
+}
+
+.checkred-card6{
+  position: absolute;
+  top: 841px;
+  left: 95px;
+}
+
+.checkred-card7{
+  position: absolute;
+  top: 940px;
+  left: 95px;
+}
+
+.checkred-card8{
+  position: absolute;
+  top: 1039px;
+  left: 95px;
+}
+
+.checkred-card9{
+  position: absolute;
+  top: 1138px;
+  left: 95px;
+}
+
+.checkred-card10{
+  position: absolute;
+  top: 250px;
+  left: 95px;
+}
+
+.pacote-card1 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px; /* só se o seu card for arredondado */
+}
+
+/* Criamos a "linha vermelha animada" */
+.pacote-card1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px solid transparent; 
+  border-top-color: red;
+  border-radius: inherit;
+  animation: borderLoop 5s linear infinite;
+}
+
+@keyframes borderLoop {
+  0% {
+    border-color: transparent transparent transparent red;
+  }
+  25% {
+    border-color: red transparent transparent transparent;
+  }
+  50% {
+    border-color: transparent red transparent transparent;
+  }
+  75% {
+    border-color: transparent transparent red transparent;
+  }
+  100% {
+    border-color: transparent transparent transparent red;
+  }
 }
